@@ -14,7 +14,7 @@ input.onButtonPressed(Button.B, function () {
 input.onGesture(Gesture.Shake, function () {
     basic.showString("HELLO")
     basic.showIcon(IconNames.Happy)
-    soundExpression.happy.play()
+    soundExpression.hello.play()
 })
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     counter = 0
