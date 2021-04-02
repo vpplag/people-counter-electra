@@ -13,13 +13,16 @@ input.onButtonPressed(Button.B, function () {
 })
 input.onGesture(Gesture.Shake, function () {
     basic.showString("HELLO")
-    basic.showIcon(IconNames.Happy)
     soundExpression.hello.play()
+    basic.showIcon(IconNames.Happy)
 })
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     counter = 0
     basic.showNumber(counter)
 })
 let counter = 0
+basic.showString("HELLO")
+soundExpression.hello.play()
+basic.showIcon(IconNames.Happy)
 counter = 0
 basic.showNumber(counter)
